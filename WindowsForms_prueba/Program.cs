@@ -84,6 +84,14 @@ namespace WindowsForms_prueba
             }
 
 
+            ///*
+            ///**
+            ///
+            /// Lectura de ArrayList 
+            /// 
+            /// 
+            ///
+
             foreach(UserModel Objt in Lista) 
             {
 
