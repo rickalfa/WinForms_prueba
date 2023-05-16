@@ -49,12 +49,23 @@ namespace WindowsForms_prueba
 
 
 
-            string[,] ListaUser = new string[dateinput, 2] { { "andres", "123" }, { "miguel", "123" }, { "Alejandro", "123" } };
+            string[,] ListaUser = new string[dateinput, 2] 
+            {
+                { "andres", "123" },
+                { "miguel", "123" },
+                { "Alejandro", "123" } };
 
             int countList = ListaUser.Length;
 
             Console.WriteLine("largo de la Lista  {0} : ", countList);
 
+
+            ///**
+            ///
+            /// for para crear objetos UserModel con los Datos e incresarlo a la lista ListaUser 
+            /// 
+            /// 
+            ///*****
 
             for (int i = 0; i <= dateinput -1; i++) 
             {
