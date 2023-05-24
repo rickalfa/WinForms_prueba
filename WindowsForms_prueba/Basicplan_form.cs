@@ -22,15 +22,5 @@ namespace WindowsForms_prueba
 
 
         }
-
-        private void Basicplan_form_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
