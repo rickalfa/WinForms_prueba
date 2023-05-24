@@ -52,6 +52,14 @@
     <Compile Include="Basicplan_form.Designer.cs">
       <DependentUpon>Basicplan_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="controllers\Controller.cs" />
+    <Compile Include="controllers\UserController.cs" />
+    <Compile Include="forms_admin\Admin_estacionamientos_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms_admin\Admin_estacionamientos_form.Designer.cs">
+      <DependentUpon>Admin_estacionamientos_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +77,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Basicplan_form.resx">
       <DependentUpon>Basicplan_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms_admin\Admin_estacionamientos_form.resx">
+      <DependentUpon>Admin_estacionamientos_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home_form.resx">
       <DependentUpon>Home_form.cs</DependentUpon>
