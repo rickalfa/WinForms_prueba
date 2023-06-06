@@ -23,7 +23,21 @@ namespace WindowsForms_prueba
         {
 
 
+          
+
+
+            masterEntities db_M = new masterEntities();
+
+            List<users> ListUsers = db_M.users.ToList();
+
+
+            Console.WriteLine(ListUsers);
+
+
+
             listaDinamica();
+
+            
 
             UserController UsersList = new UserController();
 

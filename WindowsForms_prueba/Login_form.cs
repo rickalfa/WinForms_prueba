@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 
 using WindowsForms_prueba.models;
+using WindowsForms_prueba.forms_admin;
+
 
 namespace WindowsForms_prueba
 {
@@ -20,11 +22,11 @@ namespace WindowsForms_prueba
      
         public Login_form()
         {
-
+            InitializeComponent();
 
 
             HomeForm = new Home_form();
-            InitializeComponent();
+        
 
 
         }
@@ -38,12 +40,17 @@ namespace WindowsForms_prueba
         {
 
             String newname =  textBox1.Text;
+            ///
+            ///  System.Console.WriteLine(newname);
+            ///
+            ///  this.HomeForm.SetUserame(newname);
+            ///
+            ///  this.HomeForm.Show();
+            ///  
 
-            System.Console.WriteLine(newname);
+            Plaza_estacionamiento_Form FormPlazeEst = new Plaza_estacionamiento_Form();
 
-            this.HomeForm.SetUserame(newname);
-
-            this.HomeForm.Show();
+            FormPlazeEst.Show();
 
             Hide();
 
