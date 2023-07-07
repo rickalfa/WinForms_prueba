@@ -73,9 +73,9 @@ namespace WindowsForms_prueba.forms_admin
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(657, 204);
+            this.button3.Location = new System.Drawing.Point(650, 204);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(82, 23);
             this.button3.TabIndex = 4;
             this.button3.Text = "Actualizar";
             this.button3.UseVisualStyleBackColor = true;
@@ -83,7 +83,7 @@ namespace WindowsForms_prueba.forms_admin
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Cornsilk;
-            this.button2.Location = new System.Drawing.Point(26, 13);
+            this.button2.Location = new System.Drawing.Point(26, 30);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(113, 25);
             this.button2.TabIndex = 3;
@@ -92,18 +92,18 @@ namespace WindowsForms_prueba.forms_admin
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(657, 306);
+            this.button1.Location = new System.Drawing.Point(650, 306);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(82, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "Eliminar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Crear_button
             // 
-            this.Crear_button.Location = new System.Drawing.Point(657, 255);
+            this.Crear_button.Location = new System.Drawing.Point(650, 255);
             this.Crear_button.Name = "Crear_button";
-            this.Crear_button.Size = new System.Drawing.Size(75, 23);
+            this.Crear_button.Size = new System.Drawing.Size(82, 23);
             this.Crear_button.TabIndex = 1;
             this.Crear_button.Text = "Crear";
             this.Crear_button.UseVisualStyleBackColor = true;

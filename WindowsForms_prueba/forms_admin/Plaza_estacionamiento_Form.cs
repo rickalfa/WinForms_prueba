@@ -27,7 +27,11 @@ namespace WindowsForms_prueba.forms_admin
 
         private void button4_Click(object sender, EventArgs e)
         {
-            openChildForm(new Users_form());
+            /*
+             Creamos el formumario User_form con el nombre del titulo en el contructor
+             */
+            openChildForm(new Users_form("Users "));
+
         }
 
         private void button7_Click(object sender, EventArgs e)
